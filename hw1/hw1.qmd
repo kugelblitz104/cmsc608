@@ -3,12 +3,9 @@ title: "CMSC 608 HW 1"
 author: "Justin Jones"
 date: "Feb 2, 2025"
 format: 
-    html: 
+    pdf: 
         toc: true
-        toc-location: left
 ---
-![image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*qqlpRqZSYbTyquTe0O5NZg.png)
-
 ## 1. Storage Systems
 Storage Systems are tools and platforms that help store structured data. These platforms provide tools to define the structure/schema for storing data, inserting/altering data, and querying data. Examples include Relational database systems, and No-SQL systems.
 
