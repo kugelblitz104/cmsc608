@@ -1,0 +1,40 @@
+---
+title: "CMSC 608 HW 2"
+author: "Justin Jones"
+date: "Feb 10, 2025"
+format: 
+    html: 
+        toc: true
+        toc-location: left
+
+---
+# HW 2 Report
+
+GitHub Link: [click here](https://github.com/kugelblitz104/cmsc608)
+
+Diagram link: [click here](https://lucid.app/lucidchart/6389403c-ff1d-4e20-92fc-f2f6048ae26f/edit?invitationId=inv_8ba9f930-e79c-468d-a22e-741bfca911ec)
+
+## Entities and Attributes
+
+#### Restaurant Reservation System
+- Reservation(ReservationID, Date, Time)
+- Customers(CustomerID, Name, Contact Number)
+- Tables(Table Number, Seating capacity, location)
+
+#### Real Estate Listing System
+- Properties(PropertyID, Address, Listing Price)
+- Agents(AgentID, Name, Contact Number)
+- Clients(ClientID, Name, Budget)
+
+#### Hotel Booking System
+- Rooms(Room Number, Type, Rate)
+- Guest(GuestID, Name, Contact Number)
+- Bookings(BookingID, Check-In date, Check-out date)
+
+## Explaination
+
+#### Restaurant Reservation System
+I linked reservations as a weak entity since a reservation cannot exist without a customer requesting one, and not without a table for the reservation to take up
+
+#### Hotel Booking System
+I linked bookings as a weak entity since a booking cannot exist without a guest requesting one, and not without a room for the booking to take up
